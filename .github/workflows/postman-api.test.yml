@@ -20,4 +20,4 @@ jobs:
               run: 'npm install -g newman'
 
             - name: 'Run tests'
-              run: 'newman run NewmanDemo.postman_collection.json'
+              run: 'newman run tests/NewmanDemo.postman_collection.json'
